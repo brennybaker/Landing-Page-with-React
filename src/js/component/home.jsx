@@ -10,7 +10,7 @@ import Navbar from "./navbar.jsx";
 				<div>
 					<Navbar />
 					<Jumbotron />
-				<div className = "row">	
+				<div className = "row" style={{margin:"1em",padding:"none"}}>
 						<Card title ={"Title"} text ={"This is a unique sentence showcasing that every card has different string values! Feel the mattress tense beneath me like the muscle of non-sleepy. Feathers flexing will defeat me and it vexes me completely."}/>
 						<Card title ={"Another Title"} text ={"This is ANOTHER unique sentence showcasing that every card has different string values!! And the hexes heat covertly like a slow low-flying turkey, like a Texan drying jerk, but his meaty mitts can't hurt me!"}/>
 						<Card title ={"Another..Nother Title"} text ={"This is another..nother unique sentence showcasing that every card has different string values!!! With my steely will compounded in a mighty mound that's hounded by the snap your steel string sounded just before your snores unwound it."}/>
