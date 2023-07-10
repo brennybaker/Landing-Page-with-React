@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
     return(
-      <div className = "container" style = {{position: "sticky", top: "0", width: "100%"}}>
+      <div className = "container" style = {{position: "sticky", top: "0", width: "100%", justifyContent:"center", zIndex:"1"}}>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Start Bootstrap</a>
+                <a className="navbar-brand" href="#">Welcome</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
